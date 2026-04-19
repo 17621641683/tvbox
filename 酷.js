@@ -1,7 +1,7 @@
 var globalHeaders = [];
 var classes = [];
 var categories = {}; // 修复：正确使用categories存储分类数据
-var picUrl = '';
+var picUrl = '';   // ← 只改了这里：删除了图片链接，改为空字符串
 var webPaths = {};
 var sourceHeaders = {};
 var sourceConfigs = {}; // 修复：统一使用sourceConfigs变量名
